@@ -198,6 +198,34 @@ span{
     display: block;
     margin-top: 5px;
 }
+
+.more_information{
+    display: flex;
+    background-color: #333D4C;
+    height: 250px;
+    color: white;
+    justify-content: space-around;
+    
+    
+}
+
+.information_tools{
+    width: 15%;
+}
+
+.information_tools ul li {
+    list-style: none;
+    margin-left: -40px;
+}
+.information_tools ul li  a{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 18px;
+    display: block;
+
+}
 footer{
     background-color: #0B0D17;
     text-align: center;
