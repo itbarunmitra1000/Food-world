@@ -114,9 +114,10 @@ span{
 .banner_two{
     margin-top: 100px;
 }
-.banner_details h2{
+ h2{
     font-size: 50px;
     color: #575757;
+    
 }
 
 .banner_details p{
@@ -124,5 +125,47 @@ span{
     color: #828282;
     margin-bottom: 70px;
 }
+.foods_container{
+    height:750px ;
+    width: 100%;
+}
+.foods_container h2{
+   text-align: center;
+}
+.foods_container p{
+    text-align: center;
+    font-size: 16px;
+    color: #828282;
+    margin-bottom: 30px;
+}
 
+.recipe_flexible{
+    display: flex;
+    width: 25%;
+    margin-left: 10%;
+    
+}
+.recipe_list{
+    margin-right: 10%;
+    border-radius: 25px;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 8px black;
+}
 
+.recipe_list img{
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+   
+}
+
+.recipe_list h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.recipe_list p{
+    font-size: 18px;
+    text-align: justify;
+    
+}
