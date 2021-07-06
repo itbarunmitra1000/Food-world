@@ -169,3 +169,31 @@ span{
     text-align: justify;
     
 }
+
+.social_media{
+    width: 80%;
+    height: 120px;
+    box-shadow: 1px 1px 8px black;
+    margin-left: 10%;
+    display: flex;
+    border-radius: 12px;
+    justify-content: center;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+#social_media_bg{
+    height: 200px;
+    width: 100%;
+
+
+}
+
+.social_media_bar h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.social_media_bar p{
+    display: block;
+    margin-top: 5px;
+}
