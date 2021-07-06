@@ -33,6 +33,7 @@ body{
 
 span{
     color: #F35710;
+    letter-spacing: 5px;
    
 }
 
@@ -196,4 +197,21 @@ span{
 .social_media_bar p{
     display: block;
     margin-top: 5px;
+}
+footer{
+    background-color: #0B0D17;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+}
+
+footer h1{
+    color: #a5a5a5;
+}
+
+footer p{
+    color: white;
+    text-transform: capitalize;
 }
